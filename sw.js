@@ -1,4 +1,4 @@
-const CACHE = 'm600qrh-v1.3';
+const CACHE = 'm600qrh-app-0.2';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
