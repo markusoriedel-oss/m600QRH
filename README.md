@@ -1,66 +1,66 @@
 # M600 QRH
 
-Das Quick Reference Handbook der Piper M600 als klickbare, offline lauffähige App
-fürs iPhone. Grundlage ist das M600 QRH Book Version 1.3.
+The Piper M600 Quick Reference Handbook as a tappable app for the iPhone that
+works without a network connection. Based on the M600 QRH Book version 1.3.
 
 **Live: https://markusoriedel-oss.github.io/m600QRH/**
 
-Aktueller Stand: QRH v.1.3, APP v.0.4
+Current build: QRH v.1.3, APP v.0.4
 
-## Aufs iPhone legen
+## Install it on an iPhone
 
-Die App wird nicht aus dem App Store installiert, sondern direkt aus Safari auf
-den Home-Bildschirm gelegt. Danach läuft sie im Vollbild und ohne Netz.
+The app does not come from the App Store. It is placed on the home screen
+straight from Safari, and from then on it runs full screen and offline.
 
-1. **Safari** öffnen und https://markusoriedel-oss.github.io/m600QRH/ aufrufen.
-   Safari ist Pflicht: Chrome und Firefox können auf dem iPhone keine App
-   ablegen, die offline funktioniert.
-2. **Einmal komplett laden lassen**, am besten im WLAN. Es sind rund 17 MB, weil
-   alle Original-QRH-Seiten als Bilder mitgeliefert werden. Ein paar Sekunden
-   warten, bis die Startseite steht.
-3. Auf das **Teilen-Symbol** tippen (Quadrat mit Pfeil nach oben), dann
-   **Zum Home-Bildschirm**, dann **Hinzufügen**.
-4. Die App **einmal vom Home-Bildschirm starten, solange noch Netz da ist.**
-   Erst dabei legt sie alle Dateien dauerhaft lokal ab.
+1. Open **Safari** and go to https://markusoriedel-oss.github.io/m600QRH/
+   Safari is required: on the iPhone, Chrome and Firefox cannot install an app
+   that keeps working offline.
+2. **Let it load completely**, ideally on Wi-Fi. It is about 17 MB, because every
+   original QRH page is included as an image. Wait a few seconds until the home
+   screen of the app has built up.
+3. Tap the **Share** icon (the square with the arrow pointing up), then
+   **Add to Home Screen**, then **Add**.
+4. **Launch it once from the home screen while you still have a connection.**
+   Only then does it store all files locally for good.
 
-Fertig. Ab jetzt startet sie auch im Flugmodus.
+That is it. From now on it also starts in airplane mode.
 
-## Offline prüfen
+## Verify it really is offline
 
-iPhone in den Flugmodus, App vom Home-Bildschirm starten, eine Checkliste öffnen
-und unten „Show original QRH page" antippen. Erscheint die eingescannte
-Originalseite, liegt wirklich alles lokal.
+Put the iPhone in airplane mode, start the app from the home screen, open any
+checklist and tap "Show original QRH page" at the bottom. If the scanned original
+page appears, everything is genuinely stored on the device.
 
-Zeigt die App stattdessen eine leere oder halbe Seite: Netz wieder einschalten,
-App öffnen, eine Minute geöffnet lassen, dann erneut im Flugmodus testen.
+If instead you get a blank or partial page: turn the network back on, open the
+app, leave it open for a minute, then test again in airplane mode.
 
 ## Updates
 
-Es genügt, die App mit Netz zu starten. Sie erkennt eine neue Version an ihrer
-App-Nummer und lädt sie im Hintergrund. Beim übernächsten Start ist der neue
-Stand aktiv. Die Version steht oben im Kopf der Startseite (`QRH v.1.3 · APP v.0.4`).
+Just start the app while online. It recognises a new release by its app number
+and downloads it in the background, so the next launch after that runs the new
+build. The version is shown in the header of the home screen
+(`QRH v.1.3 · APP v.0.4`).
 
-Wenn eine Version einmal hängen bleibt: App vom Home-Bildschirm löschen und die
-vier Schritte oben wiederholen. Es gehen keine Daten verloren, die App speichert
-nichts, was der Nutzer eingegeben hat.
+If a version ever gets stuck, delete the app from the home screen and repeat the
+four steps above. Nothing is lost, the app stores no user input.
 
-## Farben der CAS-Meldungen
+## CAS message colours
 
-Die App gibt die drei Darstellungen des QRH unverändert wieder:
+The app reproduces the three renderings used in the QRH exactly:
 
-| Stufe | Darstellung |
+| Level | Rendering |
 |---|---|
-| Warning | roter Hintergrund, weiße Schrift |
-| Caution | schwarzer Hintergrund, gelbe Schrift |
-| Advisory | schwarzer Hintergrund, weiße Schrift |
+| Warning | red background, white text |
+| Caution | black background, yellow text |
+| Advisory | black background, white text |
 
-Die Stufe hängt an der Fundstelle, nicht am Namen der Meldung. `T/O CONFIG`
-erscheint auf ein und derselben QRH-Seite einmal als Advisory und einmal als
-Warning, ebenso wechseln `FUEL QTY`, `CHECK GEAR`, `GEAR SYS` und `HYDR PUMP ON`
-je nach Situation zwischen Warning und Caution. Die Farben sind deshalb direkt
-aus dem PDF ausgelesen und nicht abgeleitet.
+The level belongs to the individual occurrence, not to the name of the message.
+`T/O CONFIG` appears on one and the same QRH page once as an advisory and once as
+a warning, and `FUEL QTY`, `CHECK GEAR`, `GEAR SYS` and `HYDR PUMP ON` switch
+between warning and caution depending on the situation. The colours are therefore
+read directly out of the source PDF rather than inferred.
 
-## Hinweis
+## Note
 
-Private Lesehilfe, kein zugelassenes Dokument. Verbindlich sind allein das an
-Bord mitgeführte QRH und das POH.
+A private reading aid, not an approved document. Only the QRH carried on board
+and the POH are authoritative.
