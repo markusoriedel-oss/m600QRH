@@ -39,7 +39,7 @@ app, leave it open for a minute, then test again in airplane mode.
 Just start the app while online. It recognises a new release by its app number
 and downloads it in the background, so the next launch after that runs the new
 build. The version is shown in the header of the home screen
-(`QRH v.1.3 · APP v.0.9`).
+(`QRH v.1.3 · APP v.0.10`).
 
 That background update sometimes lags a release, even with a connection. The
 **circular arrows in the top right corner** force it: tap them, confirm, and the
