@@ -5,7 +5,7 @@ works without a network connection. Based on the M600 QRH Book version 1.3.
 
 **Live: https://markusoriedel-oss.github.io/m600QRH/**
 
-Current build: QRH v.1.3, APP v.0.5
+Current build: QRH v.1.3, APP v.0.6
 
 ## Install it on an iPhone
 
@@ -39,7 +39,7 @@ app, leave it open for a minute, then test again in airplane mode.
 Just start the app while online. It recognises a new release by its app number
 and downloads it in the background, so the next launch after that runs the new
 build. The version is shown in the header of the home screen
-(`QRH v.1.3 · APP v.0.5`).
+(`QRH v.1.3 · APP v.0.6`).
 
 If a version ever gets stuck, delete the app from the home screen and repeat the
 four steps above. Nothing is lost, the app stores no user input.
